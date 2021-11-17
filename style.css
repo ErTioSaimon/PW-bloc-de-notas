@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgb(74, 83, 65)
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+};
+
+#titulo_main{
+    text-align: center;
+    font-size: 100px;
+}
+
+.poner_nombre{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#nombre_archivo{
+    min-width: 50%;
+    min-height: 50px;
+    border-radius: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgb(135, 241, 132);
+    color: black;
+    font-weight: 600;
+}
+.zona-texto{
+    height: 600px;
+    padding: 10px;
+}
+#descripcion{
+    min-width: 100%;
+    min-height: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px rgb(0, 0, 0) solid;
+    background-color: rgb(135, 241, 132);
+    color: black;
+    font-weight: 600;
+    resize: none;
+}
+
+.btn-success{
+    min-height: 50px;
+    border-radius: 10px;
+    border: 3px rgb(0, 0, 0) solid;
+}
+
+#carpeta_texto{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+    background-color: rgb(135, 241, 132);
+    color: black;
+    font-weight: 600;
+}
+
+.lista_archi p{
+    text-align: center;
+}
+
+.lista_archi ul{
+    list-style:disc;
+    color: white;
+}
+
+.lista_archi ul li{
+    list-style:square;
+    color: white;
+}
+
+.lista_archi a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.lista_archi a:hover{
+    color: #fff;
+}
